@@ -1,0 +1,28 @@
+ice-village-website/
+├── 📁 public/
+│   └── vite.svg
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── 📄 Header.tsx          # شريط التنقل العلوي
+│   │   ├── 📄 Hero.tsx            # القسم الرئيسي والترحيب
+│   │   ├── 📄 About.tsx           # معلومات عن المجموعة
+│   │   ├── 📄 Leadership.tsx      # قسم القيادة (لولوش وفلكس)
+│   │   ├── 📄 JoinUs.tsx          # قسم الانضمام للمجموعة
+│   │   ├── 📄 Footer.tsx          # تذييل الموقع
+│   │   └── 📄 ThemeToggle.tsx     # زر تبديل المظهر الليلي/النهاري
+│   ├── 📁 hooks/
+│   │   └── 📄 useTheme.ts         # هوك إدارة المظهر
+│   ├── 📄 App.tsx                 # المكون الرئيسي
+│   ├── 📄 main.tsx                # نقطة دخول التطبيق
+│   ├── 📄 index.css               # الأنماط الرئيسية والخطوط
+│   └── 📄 vite-env.d.ts           # تعريفات TypeScript
+├── 📄 index.html                  # صفحة HTML الرئيسية
+├── 📄 package.json                # إعدادات المشروع والتبعيات
+├── 📄 tailwind.config.js          # إعدادات Tailwind CSS
+├── 📄 postcss.config.js           # إعدادات PostCSS
+├── 📄 vite.config.ts              # إعدادات Vite
+├── 📄 tsconfig.json               # إعدادات TypeScript الرئيسية
+├── 📄 tsconfig.app.json           # إعدادات TypeScript للتطبيق
+├── 📄 tsconfig.node.json          # إعدادات TypeScript للـ Node
+├── 📄 eslint.config.js            # إعدادات ESLint
+└── 📄 .gitignore                  # ملفات مستبعدة من Git
