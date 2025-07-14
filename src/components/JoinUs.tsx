@@ -52,6 +52,8 @@ const JoinUs = () => {
             className="group relative w-full bg-white text-blue-600 font-black py-6 px-10 rounded-3xl shadow-2xl transform hover:scale-105 transition-all duration-300 hover:shadow-3xl overflow-hidden text-xl"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+            onClick={() => window.open('https://chat.whatsapp.com/JOiXXF4kwcvDX4AhqyUDc0', '_blank')}
+            aria-label="انضم إلى مجموعة واتساب قرية Ice"
           >
             <div className={`absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 transform transition-transform duration-500 ${isHovered ? 'translate-x-0' : 'translate-x-full'}`}></div>
             <div className="relative flex items-center justify-center gap-4">
